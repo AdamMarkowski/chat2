@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :chat, Chat.Repo,
-  username: "postgres",
-  password: "postgres",
+  # username: "postgres",
+  # password: "postgres",
   database: "chat_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
